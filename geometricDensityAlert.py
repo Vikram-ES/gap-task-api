@@ -61,6 +61,7 @@ def calculation(input_df):
         benchmark = 1.645
 
         # Calculate the standard deviation of 'Geo_density'
+        benchmark_std = 0
         benchmark_std = np.std(df['Geo_density'])
 
         print("Benchmark Standard Deviation:", benchmark_std)
